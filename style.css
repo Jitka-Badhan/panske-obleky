@@ -67,7 +67,7 @@ button {
 }
 
 .white > button {
-  background-color: black;
+  background-color: white;
 }
 
 .black > button {
@@ -78,6 +78,19 @@ button {
   background-color: #9d3232;
 }
 
-.black > button {
+.blue > button {
   background-color: skyblue;
+}
+
+.container {
+  display: flex;
+}
+
+.product__order button {
+  width: 100px;
+  border-radius: 0;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: solid 1px white;
 }

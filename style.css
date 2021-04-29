@@ -87,7 +87,7 @@ button {
   border-radius: 50%;
   border-style: solid;
   border-width: 1px;
-  outline: none;
+  /* outline: none; */
   border-color: none;
   box-shadow: 0 0 15px #d6e2e6;
   margin: 20px;
@@ -99,8 +99,6 @@ button {
 
 .black {
   background-color: black;
-
-
 }
 
 .red {
@@ -126,8 +124,9 @@ button {
 
 .product__order button {
   width: 150px;
-  border-radius: 0;
-  background-color: black;
+  height: 50px;
+  border-radius: 25px;
+  background-color: transparent;
   color: white;
   font-size: 16px;
   border: solid grey 1px;

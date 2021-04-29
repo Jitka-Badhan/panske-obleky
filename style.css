@@ -64,10 +64,12 @@ button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  /* border-color: wheat;
   border-style: solid;
-  border-width: 5px; */
-  box-shadow:20px 20px 50px 15px grey;
+  border-width: 1px;
+  outline: none;
+  border-color: none;
+  box-shadow: 0 0 15px #d6e2e6;
+  margin: 20px;
 }
 
 .white > button {
@@ -76,6 +78,7 @@ button {
 
 .black > button {
   background-color: black;
+
 
 }
 
@@ -93,9 +96,11 @@ button {
 
 .product__order button {
   width: 100px;
-  border-radius: 0;
-  background-color: black;
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
   color: white;
   font-size: 16px;
-  border: solid 1px white;
+  border: solid grey 1px;
+  box-shadow: none;
 }

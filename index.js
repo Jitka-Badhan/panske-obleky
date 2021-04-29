@@ -20,6 +20,6 @@ const changeColor = (event) => {
   }
 };
 
-document.querySelectorAll('.button > button').forEach((item) => {
+document.querySelectorAll('.button-div > button').forEach((item) => {
   item.addEventListener('click', changeColor);
 });

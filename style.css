@@ -23,6 +23,8 @@ body {
   max-width: 840px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  align-items: center;
 }
 
 header {
@@ -31,6 +33,10 @@ header {
   background-position: center, center;
   background-repeat: no-repeat, repeat-x;
   height: 360px;
+}
+
+header > .container {
+  justify-content: center;
 }
 
 h1.site-title {
@@ -48,16 +54,31 @@ h1.site-title span {
   margin-top: -5rem;
   padding: 3rem;
   background-color: #141518;
+  justify-content: space-between;
 }
 
 .product__image {
   width: 6rem;
   height: auto;
+  margin-right: 3rem;
 }
 
 .t-shirt {
   stroke: #000;
   stroke-width: 2;
+}
+
+.button-div {
+  width: 65px;
+  margin-right: 10px;
+}
+
+.button-div > p {
+  text-align: center;
+}
+
+.button-div > button {
+  margin: 0 9px;
 }
 
 button {
@@ -82,13 +103,21 @@ button {
   background-color: skyblue;
 }
 
-.container {
-  display: flex;
-  align-items: center;
+.product__colors {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.choose-colors > p {
+  margin-left: 10px;
+}
+
+.color-option__box {
+  align-items: flex-start;
 }
 
 .product__order button {
-  width: 100px;
+  width: 150px;
   border-radius: 0;
   background-color: black;
   color: white;
